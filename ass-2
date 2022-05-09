@@ -1,0 +1,8 @@
+x=int(input())
+d={}
+for i in range(x):
+    name=input("studennt name:")
+    marks=int(input("studennt marks:"))
+    d[name]=marks
+print(d)
+    
